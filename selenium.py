@@ -63,48 +63,5 @@ print("Logged out")
 driver.quit()
 
 
-# In[9]:
-
-
-get_ipython().system('git init')
-
-
-# In[4]:
-
-
-git add selenium.ipynb   # Or .ipynb or any filename
-git commit -m "Initial commit of selenium script"
-
-
-# In[5]:
-
-
-git remote add origin https://github.com/xshannu4-stack/selenium-demo.git
-
-
-# In[6]:
-
-
-git branch -M main
-git push -u origin main
-
-
-# In[7]:
-
-
-git add selenium.ipynb 
-git commit -m "Describe what changed"
-git push
-
-
-# In[8]:
-
-
-pip install git
-
-
-# In[ ]:
-
-
 
 
